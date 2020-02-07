@@ -1,0 +1,11 @@
+.home-page {
+  &--link-button{
+    display: inline-block;
+  }
+
+  .employee-list {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+}

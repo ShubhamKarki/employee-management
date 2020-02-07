@@ -1,0 +1,39 @@
+.display-employee{
+
+    display: flex;
+    width: 700px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    
+
+  .display-details{
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+
+    .id{
+      width:50px;
+      padding: 12px;
+    }
+
+    .name{
+      width:200px;
+      padding: 12px;
+    }
+
+    .salary{
+      width:100px;
+      padding: 12px;
+    }
+
+    .age{
+      width:100px;
+      padding: 12px;
+    }
+  }
+
+
+}
